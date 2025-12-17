@@ -14,6 +14,9 @@ The primary aim of this project is to provide automated, accurate, and easily in
 
 ## Architecture Pipeline
 
+### 📐 Architecture Pipeline
+
+```mermaid
 graph LR
     A["Google Sheets<br/>(Daily Logs)"] -->|Live Federation| B("BigQuery<br/>Raw Data")
     B -->|Scheduled Query<br/>Daily 6:00 AM| C{"BigQuery<br/>SQL Logic"}
@@ -21,6 +24,7 @@ graph LR
     D -->|Connects| E["Looker Studio<br/>Dashboard"]
     
     style C fill:#f9f,stroke:#333,stroke-width:2px
+```
 
 ## Business Logic Explanation
 
