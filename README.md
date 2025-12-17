@@ -14,12 +14,11 @@ The primary aim of this project is to provide automated, accurate, and easily in
 
 ## Architecture Pipeline
 
-```mermaid
 graph LR
-    A[Google Sheets<br/>(Daily Logs)] -->|Live Federation| B(BigQuery<br/>Raw Data)
-    B -->|Scheduled Query<br/>Daily 6:00 AM| C{BigQuery<br/>SQL Logic}
-    C -->|Transform & Clean| D(BigQuery<br/>Processed Table)
-    D -->|Connects| E[Looker Studio<br/>Dashboard]
+    A["Google Sheets<br/>(Daily Logs)"] -->|Live Federation| B("BigQuery<br/>Raw Data")
+    B -->|Scheduled Query<br/>Daily 6:00 AM| C{"BigQuery<br/>SQL Logic"}
+    C -->|Transform & Clean| D("BigQuery<br/>Processed Table")
+    D -->|Connects| E["Looker Studio<br/>Dashboard"]
     
     style C fill:#f9f,stroke:#333,stroke-width:2px
 
