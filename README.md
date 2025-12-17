@@ -64,8 +64,5 @@ Follow these steps to deploy the solution:
 ### Contribution
 Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
 
-### License
-This project is licensed under the [MIT License](LICENSE).
-
 ### Acknowledgments
-Special thanks to the cleaning operations team and the data analysts for providing insights on workforce optimization.
+Special thanks to the cleaning operations team and the COO for providing insights on workforce optimization.
